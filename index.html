@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DR. PC</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
+  </script>
+</head>
+<style type="text/css">
+  .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  font-size: 70px;
+  color: white;
+  font-weight: bold;
+  font-family: cursive;
+</style>
+<body>
+
+<nav style="padding-top: 10px;" class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <img style="height: 60px; mix-blend-mode: color-dodge;" src="img/slider/dr.jpeg">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">GALLARY</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="#">SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CONTACT US</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-1" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/slider/240_F_172760103_Qti0uEaC44MItjZ5xScRQMcZf7m4tON9.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      <div class="centered">Welcome <br><h1 style="color: ghostwhite; font-weight: bold; font-family: fantasy;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TO</h1>DR. PC <br><h4 style="color: royalblue;">Technology specialists</h4></div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/slider/240_F_608910445_LZCwLpbkC5xjX57VYWUnBMqdZOGmwXMs.jpg" alt="Chicago" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="img/slider/240_F_187641530_3yJ9z6BdpAByRpqzR6vv6jugzf8aVEhO.jpg" alt="New York" class="d-block" style="width:100%">
+    </div>
+  </div>
+ <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+  <div class="container-fluid border border 10px">
+    <div class="row">
+      <div class="col-sm-6">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112658.57415182929!2d81.62944789999999!3d28.0678325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3998675a30f8e175%3A0x93c04013828c9891!2sNepalgunj!5e0!3m2!1sen!2snp!4v1694261340128!5m2!1sen!2snp" width="700" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+      <div class="col-sm-6">
+        <video  width="700" height="350" controls autoplay>
+          <source src="vecteezy_assembling-a-mechanical-keyboard-on-brown-switches-clicking_8478552_935.mov" type="video/mp4">
+        </video>
+  </div>
+    </div>
+  </div>
+
+</body>
+</html>
